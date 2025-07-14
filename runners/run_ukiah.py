@@ -1,4 +1,4 @@
-from civic_scraper.sites.civicclerk import CivicClerkSite
+from civic_scraper.platforms.civic_clerk.site import CivicClerkSite
 
 site = CivicClerkSite("https://cityofukiah.com/meetings/", place="Ukiah", state_or_province="CA")
 assets = site.scrape(download=False)
